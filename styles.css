@@ -1,6 +1,7 @@
 body{
     display: flex;
     margin: 0%;
+    flex-direction: column;
 
 }
 .top{
@@ -48,7 +49,7 @@ a{
 .sign-up{
     background-color: #3882f6;
     color: #e5e7eb;
-    border-radius: 10%;
+    border-radius: 5px;
     border-color: #3882f6;
 
 
@@ -65,4 +66,34 @@ a{
 }
 
 
-
+.information{
+    display: flex;
+    align-self: center;
+    padding-top: 10%;
+    flex-direction: column;
+}
+.imgandtxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+.lorem{
+    display: flex;
+    justify-content: center;
+}
