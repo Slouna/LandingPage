@@ -53,6 +53,7 @@ a{
     border-color: #3882f6;
 
 
+
 }
 .top-image {
     background-color: grey;
@@ -132,4 +133,55 @@ a{
     align-self: flex-end;
     margin-right: 200px;
     margin-bottom: 80px;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.joinus{
+    display: flex;
+    background-color: #3882f6;
+    margin: 40px;
+    margin-left : 15%;
+    margin-right: 15%;
+    align-items: center;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.action{
+    color: #F9faf8;
+    font-weight: bolder;
+    font-size: 36px;
+}
+.click{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.bottomtexts{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    justify-content: space-evenly;
+}
+.sign {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 5px;
+    border-color: white;
+    height: 20px;
+
+}
+
+
+footer{
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    color: #e5e7eb;
+    justify-content: center;
+    height: 50px;
 }
